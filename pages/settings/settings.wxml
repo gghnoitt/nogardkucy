@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="user-title" wx:if="{{hasUserInfo && canIUse}}">
-    <image class="userinfo-avatar" src="/images/user_icon.png"></image>
+    <image class="userinfo-avatar" src="../../static/settings/images/settings-user-icon.png"></image>
     <text class="userinfo-nickname">授权</text>
   </view>
   <block wx:else>
@@ -18,6 +18,4 @@
 
    <text class="userinfo-nickname">地址信息</text>
   </view>
-
-
 </view>
