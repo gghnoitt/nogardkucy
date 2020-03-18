@@ -1,5 +1,6 @@
 //app.js
 App({
+  
   onLaunch: function () {
   
     var logs = wx.getStorageSync('logs') || []
@@ -35,6 +36,8 @@ App({
     })
   },
   globalData: {
+    statusBarHeight: wx.getSystemInfoSync()['statusBarHeight'],
+
     userInfo: null
   }, 
   onError(msg) {

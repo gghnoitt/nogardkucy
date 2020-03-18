@@ -1,1 +1,6 @@
-/* pages/confirmation/confirmation.wxss */
+/* pages/home/home.wxss */
+.user-titleName text{
+  color: black;
+ 
+
+}

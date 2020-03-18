@@ -1,40 +1,49 @@
 /**index.wxss**/
 
+.user-background {
+  width: 100%;
+}
+
+.user-background {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.userinfo-avatar {
+  width: 98rpx;
+  height: 98rpx;
+  margin: 15rpx;
+  border-radius: 50%;
+}
+
 .user-title {
+
+  background: rgba(0, 0, 0, 0);
   padding-left: 30rpx;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: white;
   height: 150rpx;
+  z-index: 2;
 }
-
-.userinfo-avatar {
-  width: 108rpx;
-  height: 108rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.userinfo-nickname {
+  margin: 10rpx;
+  color:white;
+  font-size: 35rpx;
 }
+/*
 
 .user_address {
-  border-radius: 2px;
-  margin: 15rpx;
+  border-radius: 5px;
+  margin: 25rpx;
   background: white;
+    z-index: 1;
 }
 
 .userinfo-nickname {
   margin: 10rpx;
-  color:gainsboro;
+  color:black;
   font-size: 50rpx;
 }
-
-/*
-.usermotto {
-  margin-top: 200px;
-} */
-
-/* .user-motto{
-   width: 128rpx;
-  height: 128rpx;
-  color: black;
-} */
+ */

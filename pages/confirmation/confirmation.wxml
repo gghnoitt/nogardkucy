@@ -1,1 +1,5 @@
-11
+<view class="container" >
+<view class="user-titleName" style="padding-top:{{statusBarHeight}}px">
+ <text>购物车</text>
+</view>
+</view>

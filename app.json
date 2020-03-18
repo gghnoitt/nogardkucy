@@ -5,26 +5,25 @@
     "pages/settings/settings"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "生鲜团购",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "navigationBarTitleText": "生鲜团购"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-
-    
     "color": "#8a8a8a",
     "selectedColor": "#333333",
     "borderStyle": "white",
     "list": [
-        {
-          "iconPath": "static/tabbar_icon/images/tabbar-home-default-icon.png",
-          "selectedIconPath": "static/tabbar_icon/images/tabbar-home-select-icon.png",
-          "pagePath": "pages/home/home",
-          "text": "首页"
-        },
+      {
+        "iconPath": "static/tabbar_icon/images/tabbar-home-default-icon.png",
+        "selectedIconPath": "static/tabbar_icon/images/tabbar-home-select-icon.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
       {
         "iconPath": "static/tabbar_icon/images/tabbar-cart-default-icon.png",
         "selectedIconPath": "static/tabbar_icon/images/tabbar-cart-select-icon.png",

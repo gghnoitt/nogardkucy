@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container" >
+<view class="user-titleName" style="padding-top:{{statusBarHeight}}px">
+ <text>首页</text>
+</view>
+</view>

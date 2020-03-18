@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    statusBarHeight: app.globalData.statusBarHeight,
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
